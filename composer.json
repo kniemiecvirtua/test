@@ -7,6 +7,10 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
+  "repositories": {
+    "type": "vcs",
+    "url": "https://github.com/kniemiecvirtua/test"
+  },
   "extra": {
     "map": [
       [
@@ -15,5 +19,5 @@
       ]
     ]
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "dev"
 }
