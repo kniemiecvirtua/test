@@ -7,17 +7,18 @@
     "OSL-3.0",
     "AFL-3.0"
   ],
-  "repositories": {
-    "type": "vcs",
-    "url": "https://github.com/kniemiecvirtua/test"
-  },
-  "extra": {
-    "map": [
-      [
-        "*",
-        "Virtua/Test"
-      ]
-    ]
-  },
-  "minimum-stability": "dev"
+  "authors": [
+    {
+      "name": "Author Name",
+      "email": "hello@example.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Virtua\\Test\\": ""
+    }
+  }
 }
