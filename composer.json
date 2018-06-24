@@ -14,5 +14,6 @@
         "Virtua/Test"
       ]
     ]
-  }
+  },
+  "minimum-stability": "stable"
 }
